@@ -7,7 +7,7 @@ def is_prime(n):
 def prime_number_list(length):
     result = []
     n = 2
-    while(len(result) <= 99):
+    while(len(result) <= (length-1)):
         check = is_prime(n)
         if check == True:
             result.append(n)
